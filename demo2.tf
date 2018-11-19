@@ -26,7 +26,7 @@ resource "aws_s3_bucket" "example" {
 }
 
 resource "aws_kms_key" "a" {
-  enable_key_rotation = true
+  enable_key_rotation = false
   description             = "KMS key 1"
   deletion_window_in_days = 10
 }
