@@ -56,7 +56,7 @@
                     "strict": {
                         "allow_users_to_change_password": false,
                         "minimum_password_length": 16,
-                        "require_lowercase_characters": true,
+                        "require_lowercase_characters": false,
                         "require_numbers": false,
                         "require_symbols": false,
                         "require_uppercase_characters": true,
